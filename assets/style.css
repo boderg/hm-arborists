@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+:root {
+    --background-color: rgba(107, 32, 178, 0.7);
+    --text-color: whitesmoke;
+}
+
+.navbar {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+}
+.nav-list a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: large;
+    font-weight: 300;
+}
+.nav-item {
+    display: inline-flex;
+    direction: row;
+    margin: 50px 50px auto auto;
+    padding: 0.5em 1em;
+    background-color: var(--background-color);
+    border-radius: 25px;
+    color: var(--text-color);
+    font-weight: 300;
+    font-size: large;
+    width: 100px;
+    justify-content: center;
+}
+
+.header {
+    height: 100vh;
+    width: 100%;
+    background: url(/assets/images/image-from-rawpixel-id-7009523-small.png) bottom center no-repeat, linear-gradient(rgba(190, 190, 190, 1) 0%, rgba(135, 206, 235, 1) 10%, rgba(135, 206, 235, 1) 65%, rgba(144, 238, 144, 1));
+}
+
+.title {
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    text-align: center;
+    width: 30%;
+    margin: 0px auto;
+    padding: 15px;
+    border-radius: 100px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.about {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(190, 190, 190, 1) 0%, rgba(135, 206, 235, 1) 10%);
+}
+
+.contact {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(135, 206, 235, 1) 80%, rgba(144, 238, 144, 1));
+}
+
+.divider {
+    width: 50%;
+    height: 3px;
+    margin: 10px auto;
+    background-color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-radius: 7px;
+}
+
+footer {
+    height: 5rem;
+    background-color: lightgreen;
+}
+
+footer p {    
+    text-align: center;
+    width: 15%;
+    margin: 0px auto;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-weight: 300;
+    font-size: large;
+}
+.details {
+    position: relative;
+    left: 25%;
+    top: 10%;
+    background-color: var(--background-color);
+    width: 15%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+    color: var(--text-color);
+    border-radius: 50px;
+    padding: 5px;
+}
+.address {
+    position: relative;
+    left: 25%;
+    top: 20%;
+    background-color: var(--background-color);
+    width: 15%;
+    text-align: center;
+    font-size: larger;
+    font-weight: 400;
+    color: var(--text-color);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.map {
+    position: relative;
+    left: 10%;
+    bottom: -30%;
+    width: 80%;
+    height: 40vh;
+    border: 5px solid var(--background-color);
+    border-radius: 500px;
+}
