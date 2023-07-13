@@ -129,3 +129,10 @@ footer p {
     border: 5px solid var(--background-color);
     border-radius: 500px;
 }
+.fname, .lname, .email {
+    border-radius: 15px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 5px;
+    margin: 0 10px;
+}
