@@ -96,7 +96,7 @@ footer p {
 .details {
     position: relative;
     left: 25%;
-    top: 10%;
+    top: 0%;
     background-color: var(--background-color);
     width: 15%;
     text-align: center;
@@ -109,30 +109,46 @@ footer p {
 .address {
     position: relative;
     left: 25%;
-    top: 20%;
+    top: 5%;
     background-color: var(--background-color);
     width: 15%;
     text-align: center;
     font-size: larger;
     font-weight: 400;
     color: var(--text-color);
-    border-radius: 50px;
+    border-radius: 100px;
     padding: 5px;
 }
 
 .map {
     position: relative;
     left: 10%;
-    bottom: -30%;
+    bottom: 10%;
     width: 80%;
     height: 40vh;
     border: 5px solid var(--background-color);
     border-radius: 500px;
 }
-.fname, .lname, .email {
-    border-radius: 15px;
+.form-section {
+    display: flex;
+   position: relative;
+   right: -55%;
+   top: -21%;
+   
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+   text-align: center;
+   
+}
+
+.fname, .lname, .email, .contact-head {
+    border-radius: 20px;
     background-color: var(--background-color);
     color: var(--text-color);
     padding: 5px;
     margin: 0 10px;
+    height: fit-content;
 }
