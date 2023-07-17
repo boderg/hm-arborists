@@ -149,6 +149,27 @@ button {
     padding: 5px;
 }
 
+.details {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+.address {
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}
+
+.details, .address {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 10px;
+    font-size: large;
+    border: 2px solid var(--text-color);
+    border-radius: 25px;
+    width: 15%;
+    text-align: center;
 }
 
 /*----------Footer----------*/
