@@ -10,26 +10,23 @@
     --text-color: whitesmoke;
 }
 
-/*----------Navigation----------*/
 .navbar {
     position: fixed;
-    background-color: var(--background-color);
-    width: 100vw;
-
+    right: 0px;
+    top: 0px;
 }
 
-.nav-link {
+.nav-list a {
     color: var(--text-color);
     text-decoration: none;
     font-size: large;
     font-weight: 300;
-
 }
 
 .nav-item {
     display: inline-flex;
     direction: row;
-    margin: 20px 20px 20px 20px;
+    margin: 50px 50px auto auto;
     padding: 0.5em 1em;
     background-color: var(--background-color);
     border-radius: 25px;
@@ -38,16 +35,7 @@
     font-size: large;
     width: 100px;
     justify-content: center;
-    border: 2px solid var(--text-color);
-
 }
-
-.nav-pills {
-    text-align: right;
-    margin: auto 100px;
-}
-
-/*----------Top Section----------*/
 
 .header {
     height: 100vh;
@@ -92,119 +80,19 @@
 }
 
 footer {
-    height: 5rem;
-    background-color: lightgreen;
+    background-color: var(--background-color);
+    padding: 10px 0px;
 }
 
 footer p {
     text-align: center;
     width: 15%;
-    margin: 0px auto;
+    margin: 10px auto;
     padding: 15px;
-    border-radius: 25px;
+    border-radius: 30px;
     background-color: var(--background-color);
     color: var(--text-color);
     font-weight: 300;
     font-size: large;
-}
-
-.details {
-    position: relative;
-    left: 25%;
-    top: 0%;
-    background-color: var(--background-color);
-    width: 15%;
-    text-align: center;
-    font-size: larger;
-    font-weight: 400;
-    color: var(--text-color);
-    border-radius: 50px;
-    padding: 5px;
-}
-
-.address {
-    position: relative;
-    left: 25%;
-    top: 5%;
-    background-color: var(--background-color);
-    width: 15%;
-    text-align: center;
-    font-size: larger;
-    font-weight: 400;
-    color: var(--text-color);
-    border-radius: 100px;
-    padding: 5px;
-}
-
-.map {
-    position: relative;
-    left: 10%;
-    bottom: 10%;
-    width: 80%;
-    height: 40vh;
-    border: 5px solid var(--background-color);
-    border-radius: 50px;
-}
-
-.form-section {
-    display: flex;
-    position: relative;
-    right: -55%;
-    top: -18%;
-
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-}
-
-.contact-head {
-    border-radius: 30px;
-    background-color: var(--background-color);
-    color: var(--text-color);
-    padding: 10px;
-    margin: 5px 0 5px 0;
-    height: 3rem;
-    width: fit-content;
-    font-size: 20px;
-}
-
-.fname,
-.lname,
-.email {
-    border-radius: 30px;
-    background-color: var(--background-color);
-    color: var(--text-color);
-    padding: 10px;
-    margin: 5px 0 5px 0;
-    height: 3rem;
-    width: fit-content;
-    font-size: large;
-}
-
-.text-input {
-    border-radius: 20px;
-    border: 5px solid var(--background-color);
-    margin: 5px 0 5px 0;
-    height: 3em;
-}
-
-textarea {
-    border-radius: 20px;
-    border: 5px solid var(--background-color);
-    margin: 5px 0 5px 0;
-}
-
-.send-button {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    border-radius: 30px;
-    border-style: none;
-    height: 2em;
-    font-weight: bolder;
-    font-size: 20px;
-    margin: 5px 0 0 0;
+    border: 2px solid var(--text-color);
 }
