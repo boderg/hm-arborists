@@ -1,8 +1,11 @@
+/*----------Global Settings----------*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ysabeau', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -10,23 +13,26 @@
     --text-color: whitesmoke;
 }
 
+/*----------Navigation----------*/
 .navbar {
     position: fixed;
-    right: 0px;
-    top: 0px;
+    background-color: var(--background-color);
+    width: 100vw;
+
 }
 
-.nav-list a {
+.nav-link {
     color: var(--text-color);
     text-decoration: none;
     font-size: large;
     font-weight: 300;
+
 }
 
 .nav-item {
     display: inline-flex;
     direction: row;
-    margin: 50px 50px auto auto;
+    margin: 20px 20px 20px 20px;
     padding: 0.5em 1em;
     background-color: var(--background-color);
     border-radius: 25px;
@@ -35,7 +41,16 @@
     font-size: large;
     width: 100px;
     justify-content: center;
+    border: 2px solid var(--text-color);
+
 }
+
+.nav-pills {
+    text-align: right;
+    margin: auto 100px;
+}
+
+/*----------Top Section----------*/
 
 .header {
     height: 100vh;
@@ -45,7 +60,7 @@
 
 .title {
     position: absolute;
-    top: 35%;
+    top: 40%;
     left: 35%;
     text-align: center;
     width: 30%;
@@ -56,18 +71,7 @@
     color: var(--text-color);
     font-weight: 500;
     font-size: x-large;
-}
-
-.about {
-    height: 100vh;
-    width: 100%;
-    background: linear-gradient(rgba(190, 190, 190, 1) 0%, rgba(135, 206, 235, 1) 10%);
-}
-
-.contact {
-    height: 125vh;
-    width: 100%;
-    background: linear-gradient(rgba(135, 206, 235, 1) 80%, rgba(144, 238, 144, 1));
+    border: 3px solid var(--text-color);
 }
 
 .divider {
@@ -78,6 +82,24 @@
     border: 1px solid var(--text-color);
     border-radius: 7px;
 }
+
+/*----------Middle Section----------*/
+
+.about {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(190, 190, 190, 1) 0%, rgba(135, 206, 235, 1) 10%);
+}
+
+/*----------Bottom Section----------*/
+
+.contact {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(135, 206, 235, 1) 80%, rgba(144, 238, 144, 1));
+}
+
+/*----------Footer----------*/
 
 footer {
     background-color: var(--background-color);
