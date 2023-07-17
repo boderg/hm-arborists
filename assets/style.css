@@ -1,11 +1,8 @@
-/*----------Global Settings----------*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Ysabeau', sans-serif;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
 }
 
 :root {
@@ -13,23 +10,26 @@
     --text-color: whitesmoke;
 }
 
+/*----------Navigation----------*/
 .navbar {
     position: fixed;
-    right: 0px;
-    top: 0px;
+    background-color: var(--background-color);
+    width: 100vw;
+
 }
 
-.nav-list a {
+.nav-link {
     color: var(--text-color);
     text-decoration: none;
     font-size: large;
     font-weight: 300;
+
 }
 
 .nav-item {
     display: inline-flex;
     direction: row;
-    margin: 50px 50px auto auto;
+    margin: 20px 20px 20px 20px;
     padding: 0.5em 1em;
     background-color: var(--background-color);
     border-radius: 25px;
@@ -38,7 +38,16 @@
     font-size: large;
     width: 100px;
     justify-content: center;
+    border: 2px solid var(--text-color);
+
 }
+
+.nav-pills {
+    text-align: right;
+    margin: auto 100px;
+}
+
+/*----------Top Section----------*/
 
 .header {
     height: 100vh;
