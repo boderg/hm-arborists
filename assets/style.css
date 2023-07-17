@@ -110,6 +110,45 @@
     height: 30%;
 }
 
+.form {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 80%;
+}
+
+.form-control {
+    width: 100%;
+    margin: 10px auto;
+    border-radius: 25px;
+    border: 3px solid var(--background-color);
+}
+
+input {
+    height: 3em;
+}
+
+button {
+    height: 2em;
+    width: 50%;
+    margin: 5% 25%;
+    border: 2px solid var(--text-color);
+    border-radius: 25px;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.form-title {
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    border: 2px solid var(--text-color);
+    border-radius: 25px;
+    padding: 5px;
+}
+
 }
 
 /*----------Footer----------*/
