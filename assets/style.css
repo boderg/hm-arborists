@@ -18,36 +18,33 @@
     position: fixed;
     background-color: var(--background-color);
     width: 100vw;
-
 }
 
 .nav-link {
     color: var(--text-color);
     text-decoration: none;
-    font-size: large;
-    font-weight: 300;
+    font-size: larger;
+    font-weight: 500;
+    padding: 5px;
+}
 
+.nav-link:hover {
+    transform: scale(1.1);
+    font-weight: bolder;
 }
 
 .nav-item {
     display: inline-flex;
     direction: row;
-    margin: 20px 20px 20px 20px;
-    padding: 0.5em 1em;
-    background-color: var(--background-color);
-    border-radius: 25px;
+    margin: 10px 20px 10px 20px;
     color: var(--text-color);
-    font-weight: 300;
-    font-size: large;
     width: 100px;
     justify-content: center;
-    border: 2px solid var(--text-color);
-
 }
 
 .nav-pills {
     text-align: right;
-    margin: auto 100px;
+    margin: auto 50px;
 }
 
 /*----------Top Section----------*/
@@ -97,22 +94,22 @@
     height: 100vh;
     width: 100%;
     background: linear-gradient(rgba(135, 206, 235, 1) 80%, rgba(144, 238, 144, 1));
-    position: relative;
 }
 
-.map {
-    position: absolute;
-    bottom: 5%;
-    left: 10%;
-    width: 80%;
-    border: 3px solid var(--background-color);
+.form-title {
+    text-align: center;
+    color: var(--text-color);
+    background-color: var(--background-color);
+    border: 2px solid var(--text-color);
     border-radius: 25px;
-    height: 30%;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .form {
-    position: absolute;
-    top: 0%;
+    position: relative;
+    top: 10%;
     left: 10%;
     width: 80%;
 }
@@ -131,45 +128,23 @@ input {
 button {
     height: 2em;
     width: 50%;
-    margin: 5% 25%;
     border: 2px solid var(--text-color);
     border-radius: 25px;
     background-color: var(--background-color);
     color: var(--text-color);
     font-size: x-large;
     font-weight: bolder;
+    margin: 20px 25% 0 25%;
 }
 
-.form-title {
-    text-align: center;
-    color: var(--text-color);
-    background-color: var(--background-color);
-    border: 2px solid var(--text-color);
-    border-radius: 25px;
-    padding: 5px;
-}
-
-.details {
-    position: absolute;
-    top: 45%;
+.map {
+    position: relative;
+    top: 18%;
     left: 10%;
-}
-
-.address {
-    position: absolute;
-    top: 45%;
-    right: 10%;
-}
-
-.details, .address {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    padding: 10px;
-    font-size: large;
-    border: 2px solid var(--text-color);
+    width: 80%;
+    border: 3px solid var(--background-color);
     border-radius: 25px;
-    width: 15%;
-    text-align: center;
+    height: 30%;
 }
 
 /*----------Footer----------*/
@@ -177,17 +152,17 @@ button {
 footer {
     background-color: var(--background-color);
     padding: 10px 0px;
+    display: flex;
 }
 
 footer p {
     text-align: center;
-    width: 15%;
     margin: 10px auto;
     padding: 15px;
     border-radius: 30px;
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     color: var(--text-color);
     font-weight: 300;
     font-size: large;
-    border: 2px solid var(--text-color);
+    /* border: 2px solid var(--text-color); */
 }
