@@ -18,33 +18,26 @@
     position: fixed;
     background-color: var(--background-color);
     width: 100vw;
+    height: 10vh;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+    padding: 2em;
 }
 
 .nav-link {
     color: var(--text-color);
     text-decoration: none;
-    font-size: larger;
-    font-weight: 500;
-    padding: 5px;
+    font-size: x-large;
+    margin-right: 20px;
+    transition: all 0.2s ease-in-out;
 }
 
 .nav-link:hover {
-    transform: scale(1.1);
     font-weight: bolder;
-}
-
-.nav-item {
-    display: inline-flex;
-    direction: row;
-    margin: 10px 20px 10px 20px;
-    color: var(--text-color);
-    width: 100px;
-    justify-content: center;
-}
-
-.nav-pills {
-    text-align: right;
-    margin: auto 50px;
 }
 
 /*----------Top Section----------*/
@@ -160,9 +153,7 @@ footer p {
     margin: 10px auto;
     padding: 15px;
     border-radius: 30px;
-    /* background-color: var(--background-color); */
     color: var(--text-color);
     font-weight: 300;
     font-size: large;
-    /* border: 2px solid var(--text-color); */
 }
