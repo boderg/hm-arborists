@@ -134,13 +134,9 @@
     border-radius: 150px 0 150px 0;
 }
 
-.lop1 {
-    transform: scaleX(-1);
-    transform: rotate(180deg);
-}
-
 .lop1, .lop2 {
     opacity: 0.75;
+    transform: scale(0.75);
 }
 
 .bg-color2 {
