@@ -38,6 +38,11 @@
     letter-spacing: 3px;
 }
 
+.navbar-brand:hover {
+    color: var(--alt-color);
+    text-decoration: underline;
+}
+
 .nav-list {
     display: flex;
     column-gap: 2rem;
