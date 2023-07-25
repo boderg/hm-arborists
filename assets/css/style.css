@@ -94,6 +94,30 @@
     text-align: center;
 }
 
+.jobs1 h2 {
+    margin-bottom: 10px;
+}
+
+.jobs1 p {
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.jobs2 h2 {
+    margin-bottom: 10px;
+}
+
+.jobs2 p {
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.divider {
+    background-color: var(--text-color);
+    width: 30%;
+    height: 2px;
+}
+
 .bg-color1, .bg-color2, .bg-color3, .bg-color4 {
     padding: 20px;
     width: 50vw;
@@ -108,6 +132,15 @@
 
 .bg-color1 {
     border-radius: 150px 0 150px 0;
+}
+
+.lop1 {
+    transform: scaleX(-1);
+    transform: rotate(180deg);
+}
+
+.lop1, .lop2 {
+    opacity: 0.75;
 }
 
 .bg-color2 {
