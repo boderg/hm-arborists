@@ -158,6 +158,10 @@
 #contact {
     height: 100vh;
     background-color: lightgreen;
+    background-image: url(/assets/images/Tree_Rootsx3.webp);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50% 0;
 }
 
 footer {
