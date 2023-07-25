@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* font-family: 'Chela One', cursive; */
+    font-family: 'Cabin Sketch', cursive;
+}
+
+:root {
+    --bg-color: blueviolet;
+    --text-color: antiquewhite;
+    --alt-color: lightgreen;
+}
+
+.navbar {
+    background-color: var(--bg-color);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    display: flex;
+    color: var(--text-color);
+    text-decoration: none;
+    font-size: xx-large;
+    align-items: center;
+    padding: 20px;
+    letter-spacing: 3px;
+}
+
+.nav-list {
+    display: flex;
+    column-gap: 2rem;
+    align-items: center;
+    padding: 30px;
+}
+
+.nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: var(--alt-color);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/assets/images/big-oak.webp), linear-gradient(179deg, lightgrey, skyblue 20%, lightgrey 90%, darkgreen 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.main-title {
+    color: var(--text-color); 
+    border: 1px solid var(--text-color);
+    padding: 15px;
+    background-color: var(--bg-color);
+    letter-spacing: 3px;
+}
+
+#about {
+    background: radial-gradient(circle at 50%, blueviolet 5%, skyblue 5%, skyblue 75%, lightgreen 100%);
+    padding: 1rem 0;
+}
+
+.jobs1, .jobs2 {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    text-align: center;
+}
+
+.bg-color1, .bg-color2, .bg-color3, .bg-color4 {
+    padding: 20px;
+    width: 50vw;
+    height: 50vh;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bg-color1 {
+    border-radius: 150px 0 150px 0;
+}
+
+.bg-color2 {
+    border-radius: 0 150px 0 150px;
+}
+
+.bg-color3 {
+    border-radius: 0 150px 0 150px;
+}
+
+.bg-color4 {
+    border-radius: 150px 0 150px 0;
+}
+
+#contact {
+    height: 100vh;
+    background-color: lightgreen;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    height: 3rem;
+}
+
+.fa-regular {
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 1100px) {
+   #home {
+    background-image: url(/assets/images/big-oak.webp), linear-gradient(skyblue, lightgrey 35%, lightgrey 50%, darkgreen 100%);
+   }
+}
