@@ -177,10 +177,10 @@
 #contact {
     height: 100vh;
     background-color: lightgreen;
-    background-image: url(/assets/images/Tree_Rootsx3.webp);
+    background-image: url(/assets/images/tree-silhouetteflip.webp);
     background-repeat: no-repeat;
-    background-size: auto;
-    background-position: 50% 0;
+    background-size: cover;
+    background-position: 0% 0% ;
 }
 
 .contact-form {
@@ -216,9 +216,6 @@ textarea {
     height: 20rem;
     border: 1px solid var(--text-color);
     background-color: rgba(137, 43, 226, 0.534);
-    background-image: url(/assets/images/summer.webp);
-    background-repeat: no-repeat;
-    background-position: 50%;
     font-size: large;
     font-family: Fira Sans, sans-serif;
     outline: none;
