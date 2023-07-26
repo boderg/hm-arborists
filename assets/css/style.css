@@ -205,7 +205,6 @@ input {
     height: 2rem;
     border: 1px solid var(--text-color);
     background-color: rgba(137, 43, 226, 0.534);
-    /* color: var(--alt-color); */
     font-size: large;
     font-family: Fira Sans, sans-serif;
     outline: none;
@@ -217,7 +216,9 @@ textarea {
     height: 20rem;
     border: 1px solid var(--text-color);
     background-color: rgba(137, 43, 226, 0.534);
-    /* color: var(--text-color); */
+    background-image: url(/assets/images/summer.webp);
+    background-repeat: no-repeat;
+    background-position: 50%;
     font-size: large;
     font-family: Fira Sans, sans-serif;
     outline: none;
