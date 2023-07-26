@@ -107,7 +107,7 @@
 
 .jobs1 p {
     font-size: larger;
-    margin-top: 10px;
+    margin: 10px 0;
     font-family: Fira Sans, sans-serif;
 }
 
@@ -118,7 +118,7 @@
 
 .jobs2 p {
     font-size: larger;
-    margin-top: 10px;
+    margin: 10px 0;
     font-family: Fira Sans, sans-serif;
 }
 
@@ -162,14 +162,15 @@
 .lop1,
 .lop2 {
     opacity: 0.75;
-    transform: scale(0.75);
+    transform: scale(0.75) rotate(170deg);
+    margin-top: 50px;
 }
 
 .chain1,
 .chain2 {
     opacity: 0.75;
-    transform: scale(0.75);
-    transform: rotate(10deg);
+    transform: scale(0.75) rotate(10deg);
+    margin-top: 20px;
 }
 
 /*----------Contact section----------*/
