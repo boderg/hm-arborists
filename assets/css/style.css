@@ -1,3 +1,4 @@
+/*----------Global Settings----------*/
 * {
     margin: 0;
     padding: 0;
@@ -12,6 +13,7 @@
     --alt-color: lightgreen;
 }
 
+/*----------Navigation----------*/
 .navbar {
     background-color: var(--bg-color);
     height: 100px;
@@ -26,6 +28,8 @@
     align-items: center;
     margin: 0 20px;
     padding: 0 20px;
+    height: 60px;
+    width: 60px;
 }
 
 .navbar-brand {
@@ -63,6 +67,7 @@
     font-weight: 700;
 }
 
+/*----------Home Section----------*/
 #home {
     display: flex;
     justify-content: center;
@@ -75,19 +80,21 @@
 }
 
 .main-title {
-    color: var(--text-color); 
+    color: var(--text-color);
     border: 1px solid var(--text-color);
     padding: 15px;
     background-color: var(--bg-color);
     letter-spacing: 3px;
 }
 
+/*----------About Section----------*/
 #about {
     background: radial-gradient(circle at 50%, blueviolet 5%, skyblue 5%, skyblue 75%, lightgreen 100%);
     padding: 1rem 0;
 }
 
-.jobs1, .jobs2 {
+.jobs1,
+.jobs2 {
     display: flex;
     gap: 2rem;
     padding: 1rem 2rem;
@@ -118,7 +125,10 @@
     height: 2px;
 }
 
-.bg-color1, .bg-color2, .bg-color3, .bg-color4 {
+.bg-color1,
+.bg-color2,
+.bg-color3,
+.bg-color4 {
     padding: 20px;
     width: 50vw;
     height: 50vh;
@@ -134,16 +144,6 @@
     border-radius: 150px 0 150px 0;
 }
 
-.lop1, .lop2 {
-    opacity: 0.75;
-    transform: scale(0.75);
-}
-
-.chain1, .chain2 {
-    opacity: 0.75;
-    transform: scale(0.75);
-}
-
 .bg-color2 {
     border-radius: 0 150px 0 150px;
 }
@@ -156,6 +156,19 @@
     border-radius: 150px 0 150px 0;
 }
 
+.lop1,
+.lop2 {
+    opacity: 0.75;
+    transform: scale(0.75);
+}
+
+.chain1,
+.chain2 {
+    opacity: 0.75;
+    transform: scale(0.75);
+}
+
+/*----------Contact section----------*/
 #contact {
     height: 100vh;
     background-color: lightgreen;
@@ -165,6 +178,9 @@
     background-position: 50% 0;
 }
 
+
+
+/*----------Footer----------*/
 footer {
     display: flex;
     justify-content: center;
@@ -178,8 +194,9 @@ footer {
     vertical-align: middle;
 }
 
+/*----------Media Queries----------*/
 @media screen and (max-width: 1100px) {
-   #home {
-    background-image: url(/assets/images/big-oak.webp), linear-gradient(skyblue, lightgrey 35%, lightgrey 50%, darkgreen 100%);
-   }
+    #home {
+        background-image: url(/assets/images/big-oak.webp), linear-gradient(skyblue, lightgrey 35%, lightgrey 50%, darkgreen 100%);
+    }
 }
