@@ -139,6 +139,11 @@
     transform: scale(0.75);
 }
 
+.chain1, .chain2 {
+    opacity: 0.75;
+    transform: scale(0.75);
+}
+
 .bg-color2 {
     border-radius: 0 150px 0 150px;
 }
