@@ -175,13 +175,12 @@
 
 /*----------Contact section----------*/
 #contact {
-    height: 100vh;
     background-color: lightgreen;
     background-image: url(/assets/images/tree-silhouetteflip.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0% 0%;
-    background-attachment:local;
+    background-attachment: local;
 }
 
 .contact-form {
