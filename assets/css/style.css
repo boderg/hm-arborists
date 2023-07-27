@@ -89,7 +89,7 @@
 /*----------About Section----------*/
 #about {
     background: radial-gradient(circle at 50%, blueviolet 5%, skyblue 5%, skyblue 75%, lightgreen 100%);
-    padding: 1rem 0;
+    padding: 50px 0;
 }
 
 .jobs1,
@@ -186,7 +186,7 @@
 
 .contact-form {
     text-align: center;
-    padding: 100px;
+    padding: 50px 0 100px 0;
     color: var(--text-color);
 }
 
