@@ -85,6 +85,7 @@
     background-color: var(--bg-color);
     letter-spacing: 2px;
     font-family: 'Cabin', sans-serif;
+    text-align: center;
 }
 
 /*----------About Section----------*/
@@ -178,7 +179,6 @@
 
 /*----------Contact section----------*/
 #contact {
-    /* background: ; */
     background-image: url(/assets/images/tree-silhouetteflip.webp), linear-gradient(170deg, darkblue, rgba(0, 0, 139, 0.555) 60%, rgba(255, 255, 0, 0.445) 100%);
     background-repeat: no-repeat;
     background-size: cover;
@@ -281,10 +281,6 @@ footer {
 
 /*----------Media Queries----------*/
 @media screen and (max-width: 1100px) {
-    #home {
-        background-image: url(/assets/images/big-tree-silhouette.webp), linear-gradient(skyblue, lightgrey 35%, lightgrey 50%, darkgreen 80%);
-        background-position: center;
-    }
 
     #about {
         background: linear-gradient(skyblue, lightgreen);
@@ -338,5 +334,32 @@ footer {
 
     button {
         width: 7rem;
+    }
+}
+
+@media screen and (max-width: 679px) {
+    .navbar {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 598px) {
+    .navbar {
+        flex-flow: wrap;
+        height: 150px;
+    }
+    .navbar-brand {
+        padding: 20px 0 0 0;
+    }
+    .nav-list {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .logo {
+        width: 40px;
+        height: 40px;
+        padding: 0;
     }
 }
