@@ -290,7 +290,8 @@ footer {
         flex-direction: column;
     }
 
-    .jobs1 h2, .jobs2 h2 {
+    .jobs1 h2,
+    .jobs2 h2 {
         padding-top: 30px;
     }
 
@@ -320,12 +321,15 @@ footer {
     }
 
     .contact-heading,
-.contact-sub-heading {
-    width: 75%;
-}
-    input, textarea {
+    .contact-sub-heading {
+        width: 75%;
+    }
+
+    input,
+    textarea {
         width: 90%;
     }
+
     button {
         width: 7rem;
     }
