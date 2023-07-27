@@ -19,6 +19,7 @@
     justify-content: space-between;
     position: fixed;
     width: 100vw;
+    z-index: 1;
 }
 
 .logo {
@@ -37,8 +38,8 @@
     font-size: xx-large;
     align-items: center;
     padding: 20px;
-    letter-spacing: 3px;
-    font-family: Cabin Sketch, cursive;
+    letter-spacing: 2px;
+    font-family: 'Cabin', sans-serif;
 }
 
 .navbar-brand:hover {
@@ -71,7 +72,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(/assets/images/big-tree-silhouette.webp), linear-gradient(179deg, lightgrey, skyblue 20%, lightgrey 90%, darkgreen 95%);
+    background-image: url(/assets/images/big-tree-silhouette.webp), linear-gradient(179deg, lightgrey, skyblue 25%, skyblue 50%, lightgrey 90%, darkgreen 95%);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom center;
@@ -82,14 +83,14 @@
     border: 1px solid var(--text-color);
     padding: 15px;
     background-color: var(--bg-color);
-    letter-spacing: 3px;
-    font-family: Cabin Sketch, cursive;
+    letter-spacing: 2px;
+    font-family: 'Cabin', sans-serif;
 }
 
 /*----------About Section----------*/
 #about {
     background: radial-gradient(circle at 50%, blueviolet 5%, skyblue 5%, skyblue 75%, lightgreen 100%);
-    padding: 50px 0;
+    padding: 75px 0;
 }
 
 .jobs1,
@@ -102,7 +103,8 @@
 
 .jobs1 h2 {
     margin-bottom: 10px;
-    font-family: Cabin Sketch, cursive;
+    letter-spacing: 1px;
+    font-family: 'Cabin', sans-serif;
 }
 
 .jobs1 p {
@@ -113,7 +115,8 @@
 
 .jobs2 h2 {
     margin-bottom: 10px;
-    font-family: Cabin Sketch, cursive;
+    letter-spacing: 1px;
+    font-family: 'Cabin', sans-serif;
 }
 
 .jobs2 p {
@@ -175,17 +178,17 @@
 
 /*----------Contact section----------*/
 #contact {
-    background-color: lightgreen;
+    background-color: rgba(0, 0, 139, 0.678);
     background-image: url(/assets/images/tree-silhouetteflip.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0% 0%;
+    background-position: bottom;
     background-attachment: local;
 }
 
 .contact-form {
     text-align: center;
-    padding: 50px 0 100px 0;
+    padding: 100px 0 100px 0;
     color: var(--text-color);
 }
 
@@ -197,7 +200,8 @@
     margin: 3rem auto;
     border: 1px solid var(--text-color);
     font-size: x-large;
-    font-family: Cabin Sketch, cursive;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
     color: var(--text-color);
     text-align: center;
 }
@@ -207,7 +211,7 @@ input {
     width: 60%;
     height: 2rem;
     border: 1px solid var(--text-color);
-    background-color: rgba(137, 43, 226, 0.87);
+    background-color: rgba(137, 43, 226, 0.596);
     font-size: large;
     font-family: Fira Sans, sans-serif;
     outline: none;
@@ -219,7 +223,7 @@ textarea {
     width: 60%;
     height: 20rem;
     border: 1px solid var(--text-color);
-    background-color: rgba(137, 43, 226, 0.87);
+    background-color: rgba(137, 43, 226, 0.596);
     font-size: large;
     font-family: Fira Sans, sans-serif;
     outline: none;
@@ -228,12 +232,12 @@ textarea {
 
 input:focus,
 textarea:focus {
-    border: 5px solid var(--bg-color);
+    border: 5px solid var(--alt-color);
     border-radius: 5px;
 }
 
 ::placeholder {
-    color: rgba(144, 238, 144, 0.829);
+    color: rgba(144, 238, 144, 0.596);
     opacity: 1;
     padding: 10px;
     font-family: Fira Sans, sans-serif;
@@ -249,12 +253,14 @@ button {
     color: var(--text-color);
     font-size: x-large;
     transition: all 0.5s ease-in-out;
-    font-family: Cabin Sketch, cursive;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 1px;
 }
 
 button:hover {
     transform: scale(1.2);
     color: lightgreen;
+    border: 3px solid lightgreen;
 }
 
 
