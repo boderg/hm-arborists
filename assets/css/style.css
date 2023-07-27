@@ -198,6 +198,7 @@
     border: 1px solid var(--text-color);
     font-size: x-large;
     font-family: Cabin Sketch, cursive;
+    color: var(--text-color);
 }
 
 input {
@@ -205,10 +206,11 @@ input {
     width: 60%;
     height: 2rem;
     border: 1px solid var(--text-color);
-    background-color: rgba(137, 43, 226, 0.534);
+    background-color: rgba(137, 43, 226, 0.87);
     font-size: large;
     font-family: Fira Sans, sans-serif;
     outline: none;
+    color: var(--text-color);
 }
 
 textarea {
@@ -216,10 +218,11 @@ textarea {
     width: 60%;
     height: 20rem;
     border: 1px solid var(--text-color);
-    background-color: rgba(137, 43, 226, 0.534);
+    background-color: rgba(137, 43, 226, 0.87);
     font-size: large;
     font-family: Fira Sans, sans-serif;
     outline: none;
+    color: var(--text-color);
 }
 
 input:focus, textarea:focus {
@@ -228,7 +231,7 @@ input:focus, textarea:focus {
 }
 
 ::placeholder {
-    color: var(--text-color);
+    color: rgba(144, 238, 144, 0.829);
     opacity: 1;
     padding: 10px;
     font-family: Fira Sans, sans-serif;
