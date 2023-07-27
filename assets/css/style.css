@@ -178,8 +178,8 @@
 
 /*----------Contact section----------*/
 #contact {
-    background-color: rgba(0, 0, 139, 0.678);
-    background-image: url(/assets/images/tree-silhouetteflip.webp);
+    /* background: ; */
+    background-image: url(/assets/images/tree-silhouetteflip.webp), linear-gradient(170deg, darkblue, rgba(0, 0, 139, 0.555) 60%, rgba(255, 255, 0, 0.445) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
