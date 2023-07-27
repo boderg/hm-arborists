@@ -189,7 +189,8 @@
     color: var(--text-color);
 }
 
-.contact-heading, .contact-sub-heading {
+.contact-heading,
+.contact-sub-heading {
     background-color: var(--bg-color);
     width: fit-content;
     padding: 1rem;
@@ -198,6 +199,7 @@
     font-size: x-large;
     font-family: Cabin Sketch, cursive;
     color: var(--text-color);
+    text-align: center;
 }
 
 input {
