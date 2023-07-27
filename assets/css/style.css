@@ -71,10 +71,10 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(/assets/images/big-oak.webp), linear-gradient(179deg, lightgrey, skyblue 20%, lightgrey 90%, darkgreen 100%);
+    background-image: url(/assets/images/big-tree-silhouette.webp), linear-gradient(179deg, lightgrey, skyblue 20%, lightgrey 90%, darkgreen 95%);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
+    background-position: bottom center;
 }
 
 .main-title {
