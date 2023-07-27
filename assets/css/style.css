@@ -57,7 +57,7 @@
     color: var(--text-color);
     text-decoration: none;
     letter-spacing: 1px;
-    font-family: Fira Sans, sans-serif;    
+    font-family: Fira Sans, sans-serif;
 }
 
 .nav-link:hover {
@@ -226,7 +226,8 @@ textarea {
     color: var(--text-color);
 }
 
-input:focus, textarea:focus {
+input:focus,
+textarea:focus {
     border: 5px solid var(--bg-color);
     border-radius: 5px;
 }
@@ -275,6 +276,57 @@ footer {
 /*----------Media Queries----------*/
 @media screen and (max-width: 1100px) {
     #home {
-        background-image: url(/assets/images/big-oak.webp), linear-gradient(skyblue, lightgrey 35%, lightgrey 50%, darkgreen 100%);
+        background-image: url(/assets/images/big-tree-silhouette.webp), linear-gradient(skyblue, lightgrey 35%, lightgrey 50%, darkgreen 80%);
+        background-position: center;
+    }
+
+    #about {
+        background: linear-gradient(skyblue, lightgreen);
+        padding: 50px 0;
+    }
+
+    .jobs1,
+    .jobs2 {
+        flex-direction: column;
+    }
+
+    .jobs1 h2, .jobs2 h2 {
+        padding-top: 30px;
+    }
+
+    .bg-color1,
+    .bg-color2,
+    .bg-color3,
+    .bg-color4 {
+        width: 90%;
+        height: fit-content;
+    }
+
+    .lop1,
+    .lop2 {
+        opacity: 0.75;
+        transform: scale(0.5) rotate(170deg);
+        margin-top: 25px;
+    }
+
+    .chain1,
+    .chain2 {
+        opacity: 0.75;
+        transform: scale(0.5) rotate(10deg);
+    }
+
+    #contact {
+        padding-top: 50px;
+    }
+
+    .contact-heading,
+.contact-sub-heading {
+    width: 75%;
+}
+    input, textarea {
+        width: 90%;
+    }
+    button {
+        width: 7rem;
     }
 }
