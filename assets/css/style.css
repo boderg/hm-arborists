@@ -240,7 +240,7 @@ input:focus, textarea:focus {
 
 button {
     margin: 1rem auto;
-    width: 10%;
+    width: 10rem;
     height: 2.5rem;
     border: 1px solid var(--text-color);
     border-radius: 12px;
