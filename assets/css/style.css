@@ -91,7 +91,7 @@
 
 /*----------About Section----------*/
 #about {
-    background: radial-gradient(circle at 50%, blueviolet 5%, skyblue 5%, skyblue 75%, lightgreen 100%);
+    background: radial-gradient(circle at 50%, blueviolet 5%, var(--alt-color) 5%);
     padding: 75px 0;
 }
 
