@@ -73,7 +73,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(/assets/images/big-tree-silhouette.webp), linear-gradient(179deg, lightgrey, skyblue 25%, skyblue 50%, lightgrey 90%, darkgreen 95%);
+    background-image: url(/assets/images/big-tree-silhouette.webp), linear-gradient(179deg, skyblue, skyblue 75%, lightgrey 90%, darkgreen 95%);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom center;
