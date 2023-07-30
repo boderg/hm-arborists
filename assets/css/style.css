@@ -8,7 +8,8 @@
 :root {
     --bg-color: blueviolet;
     --text-color: antiquewhite;
-    --alt-color: lightgreen;
+    --alt-color: rgba(0, 255, 149, 0.685);
+    --input-color: rgba(137, 43, 226, 0.596);
 }
 
 /*----------Navigation----------*/
