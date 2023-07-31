@@ -73,7 +73,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(/assets/images/big-tree-silhouette.webp), linear-gradient(179deg, skyblue, skyblue 75%, lightgrey 90%, darkgreen 95%);
+    background-image: url(./assets/images/big-tree-silhouette.webp), linear-gradient(179deg, skyblue, skyblue 75%, lightgrey 90%, darkgreen 95%);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom center;
@@ -182,7 +182,7 @@
 
 /*----------Contact section----------*/
 #contact {
-    background-image: url(/assets/images/tree-silhouetteflip.webp), linear-gradient(170deg, darkblue, rgba(0, 0, 139, 0.555) 60%, rgba(255, 255, 0, 0.445) 100%);
+    background-image: url(./assets/images/tree-silhouetteflip.webp), linear-gradient(170deg, darkblue, rgba(0, 0, 139, 0.555) 60%, rgba(255, 255, 0, 0.445) 100%);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
